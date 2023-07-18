@@ -1,0 +1,52 @@
+
+/*................................. nav-Sec............................. */
+
+.nav-Sec .navbar-brand{
+    width: 120px;
+}
+
+.nav-Sec .navbar-brand img{
+    width: 100%;
+}
+
+.nav-Sec .navbar-nav .nav-link {
+    color : #fff;
+    text-transform: uppercase;
+}
+
+
+.nav-Sec .navbar-nav .active>.nav-link,
+.nav-Sec .navbar-nav .nav-link.active,
+.nav-Sec .navbar-nav .nav-link.show,
+.nav-Sec .navbar-nav .show>.nav-link {
+    color: orange;
+    border-bottom: 2px solid orange;
+
+}
+
+.nav-Sec .navbar-nav .nav-link:focus,
+ .nav-Sec .navbar-nav .nav-link:hover {
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+
+
+/***************************************** main-Sec********************************* */
+
+
+.main-Sec .carousel-item{
+    height: 400px;
+}
+
+.main-Sec .carousel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-Sec .carousel-caption{
+    bottom: auto;
+    top: 25%;
+}
+
+
