@@ -49,4 +49,53 @@
     top: 25%;
 }
 
+/**************************************** praralax-Sec *************************************/
 
+
+.paralax{
+   
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/lights.jpg); */
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+}
+.paralax.home{
+    background-image: url(../images/lights.jpg);
+}
+
+.paralax::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, .7);
+    top : 0;
+    left: 0;
+
+}
+
+.paralax.media{
+    background-image: url(../images/media.jpg);
+}
+
+.img-gallary a{
+    width: 350px;
+    height: 100%;
+    display: inline-block;
+}
+
+.img-gallary a > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/************************************************** footer-Sec ****************************************/
+
+.footer{
+    background-color: black;
+}
