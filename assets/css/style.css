@@ -94,8 +94,33 @@
 }
 
 
+
+/****************************************** about us page ************************/
+
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top : 24%;
+    left :-4%;
+    width: 108%;
+
+}
+
+.tmslider img{
+    border-radius: 50%;
+    margin : 2px;
+    border : 8px groove orange;
+    
+
+}
+
+
+
 /************************************************** footer-Sec ****************************************/
 
 .footer{
     background-color: black;
 }
+
