@@ -21,6 +21,7 @@
 .nav-Sec .navbar-nav .show>.nav-link {
     color: orange;
     border-bottom: 2px solid orange;
+    font-weight: bolder;
 
 }
 
@@ -88,8 +89,8 @@
 }
 
 .img-gallary a > img{
-    width: 100%;
-    height: 100%;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
 }
 
@@ -137,6 +138,22 @@
 .card img{
     width: 400px;
     height: 300px;
+}
+
+/****************************************** team-Sec css****************************************** */
+
+.team-Sec img{
+    border: 8px groove aqua;
+}
+
+
+
+/**************************************** mediaquery**********************************************/
+
+@media all and (max-width:768px){
+    .news-Sec .form-inline .form-group {
+        flex : 0 0 100%;
+    }
 }
 
 
