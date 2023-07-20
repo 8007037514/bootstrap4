@@ -118,6 +118,22 @@
 
 
 
+/* services page css */
+
+
+.card-section .crd {
+    transition: all 0.7s;
+  }
+  
+  .crd:hover {
+
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);
+ 
+  }
+  
+
+
 /************************************************** footer-Sec ****************************************/
 
 .footer{
